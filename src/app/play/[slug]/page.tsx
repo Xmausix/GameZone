@@ -49,7 +49,7 @@ export default function GamePage({ params }: GamePageProps) {
                     <Link href="/" className="flex items-center gap-2">
                         <Gamepad2 className="w-6 h-6 text-primary" />
                         <h1 className="text-xl font-bold tracking-tight text-primary hidden sm:inline">
-                            PlayNexus
+                           GameZone
                         </h1>
                     </Link>
 

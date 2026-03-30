@@ -14,18 +14,15 @@ export type Game = {
 export const games: Game[] = [
   {
     id: 1,
-    title: "Space Shooter",
-    slug: "space-shooter",
-    description: "An intense arcade space shooting game. Blast through waves of aliens and save the galaxy from imminent destruction!",
-    thumbnail: "https://picsum.photos/seed/1/600/400",
+    title: "2048 Game",
+    slug: "2048game",
+    description: "Very popular game where slide cells to until the number 2048 is reached",
+    thumbnail: "/Assets/Game/2048.jpg",
     thumbnailHint: "space arcade",
-    url: "https://showcase.studiodev.workers.dev/arcade-space-shooter",
-    tags: ["Arcade", "Shooter", "Sci-Fi"],
+    url: "https://2048-game-eta-ruddy.vercel.app/",
+    tags: ["Arcade"],
     gallery: [
-      "https://picsum.photos/seed/g1a/1280/720",
-      "https://picsum.photos/seed/g1b/1280/720",
-      "https://picsum.photos/seed/g1c/1280/720",
-      "https://picsum.photos/seed/g1d/1280/720",
+      "/Assets/Game/2048.jpg"
     ],
     galleryHints: [
         "space battle",

@@ -4,7 +4,7 @@ import { Gamepad2, Rocket, Zap } from 'lucide-react';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'PlayNexus - Your Instant Gaming Universe',
+    title: 'GameZone - Your Instant Gaming Universe',
     description:
         'Discover and play thousands of free browser-based games instantly. No downloads, just pure fun.',
 };
@@ -17,7 +17,7 @@ export default function LandingPage() {
                     <Link href="/" className="flex items-center gap-2">
                         <Gamepad2 className="w-6 h-6 text-primary" />
                         <h1 className="text-2xl font-bold tracking-tight text-primary">
-                            PlayNexus
+                            GameZone
                         </h1>
                     </Link>
                     <Button asChild>

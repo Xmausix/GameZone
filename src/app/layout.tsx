@@ -11,27 +11,27 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: 'PlayNexus - Your Instant Gaming Universe',
+    default: 'GameZone - Your Instant Gaming Universe',
     template: '%s | PlayNexus',
   },
   description: 'Discover and play thousands of free browser-based games instantly. No downloads, just pure fun.',
   keywords: ['browser games', 'online games', 'free games', 'play games online', 'arcade games', 'puzzle games'],
-  authors: [{ name: 'PlayNexus' }],
-  creator: 'PlayNexus',
-  publisher: 'PlayNexus',
+  authors: [{ name: 'GameZone' }],
+  creator: 'GameZone',
+  publisher: 'GameZone',
   robots: 'index, follow',
   openGraph: {
       type: 'website',
       locale: 'en_US',
-      url: 'https://playnexus.com',
-      title: 'PlayNexus',
+      url: 'https://game-zone-azure.vercel.app/',
+      title: 'GameZone',
       description: 'The ultimate destination for free browser-based gaming.',
-      siteName: 'PlayNexus',
+      siteName: 'GameZone',
   },
   twitter: {
       card: 'summary_large_image',
-      title: 'PlayNexus - Instant Gaming Universe',
-      description: 'No downloads, just play. Discover your next favorite game on PlayNexus.',
+      title: 'GameZone - Instant Gaming Universe',
+      description: 'No downloads, just play. Discover your next favorite game on GameZone.',
   },
 };
 
@@ -50,7 +50,7 @@ export default function RootLayout({
         <Toaster />
         <footer className="py-6 mt-auto text-center text-muted-foreground bg-background">
             <div className="container">
-                <p className="text-sm">&copy; {new Date().getFullYear()} PlayNexus. All rights reserved.</p>
+                <p className="text-sm">&copy; {new Date().getFullYear()} GameZone. All rights reserved.</p>
             </div>
         </footer>
       </body>
